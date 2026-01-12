@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ad Blocker</string>
+    <string name="vpn_status_off">VPN: OFF</string>
+    <string name="vpn_status_on">VPN: ON</string>
+    <string name="start_vpn">START VPN</string>
+    <string name="stop_vpn">STOP VPN</string>
+    <string name="select_apps">+ SELECT APPS</string>
+    <string name="selected_apps">Selected Apps for Filtering</string>
+    <string name="no_apps_selected">No apps selected</string>
+    <string name="app_selector_title">Select Apps to Filter</string>
+    <string name="app_selector_search">Search apps...</string>
+    <string name="blocklist_title">Blocklist Management</string>
+    <string name="add_custom_domain">Add Custom Domain</string>
+    <string name="add_blocklist_url">Add Blocklist URL</string>
+    <string name="custom_domain_hint">example.com</string>
+    <string name="blocklist_url_hint">https://example.com/blocklist.txt</string>
+    <string name="refresh_blocklists">Refresh Remote Lists</string>
+    <string name="notification_channel_vpn">VPN Service</string>
+    <string name="notification_title">Ad Blocker Active</string>
+    <string name="notification_text">DNS filtering is active</string>
+    <string name="permission_request_title">VPN Permission Required</string>
+    <string name="permission_request_message">This app needs VPN permission to filter DNS queries.</string>
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_message">Disable battery optimization for this app to ensure the VPN service runs continuously.</string>
+    <string name="error_vpn_setup">Failed to prepare VPN service</string>
+    <string name="error_invalid_url">Invalid URL format</string>
+    <string name="success_added">Domain added successfully</string>
+    <string name="success_url_added">Blocklist URL added successfully</string>
+</resources>

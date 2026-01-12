@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AdBlocker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorSurfaceContainer">@color/md_theme_surface</item>
+    </style>
+
+    <color name="md_theme_primary">#1f71d3</color>
+    <color name="md_theme_secondary">#6d6d6d</color>
+    <color name="md_theme_tertiary">#7d5260</color>
+    <color name="md_theme_background">#fffbfe</color>
+    <color name="md_theme_surface">#fffbfe</color>
+</resources>

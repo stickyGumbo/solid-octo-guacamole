@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AdBlocker" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="android:colorBackground">@color/md_theme_background_dark</item>
+        <item name="colorSurfaceContainer">@color/md_theme_surface_dark</item>
+    </style>
+
+    <color name="md_theme_primary">#afc6ff</color>
+    <color name="md_theme_secondary">#c7c7c7</color>
+    <color name="md_theme_tertiary">#dda1bb</color>
+    <color name="md_theme_background_dark">#1a1b1f</color>
+    <color name="md_theme_surface_dark">#fffbfe</color>
+</resources>

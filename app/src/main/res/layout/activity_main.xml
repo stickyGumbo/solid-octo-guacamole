@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Status Bar -->
+    <TextView
+        android:id="@+id/vpn_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vpn_status_off"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Main VPN Toggle Button -->
+    <Button
+        android:id="@+id/vpn_toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/start_vpn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="8dp" />
+
+    <!-- App Selector Button -->
+    <Button
+        android:id="@+id/select_apps_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/select_apps"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        app:cornerRadius="8dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+
+    <!-- Selected Apps Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_apps"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Selected Apps List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selected_apps_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+    <!-- Blocklist Management Section -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blocklist_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/refresh_blocklists_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/refresh_blocklists"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>

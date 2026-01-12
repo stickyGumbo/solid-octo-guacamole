@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Local properties
+local.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.rar
+
+# Compiled files
+*.dex
+
+# Lint
+lint-results.txt
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# IDEs
+out/
+.vscode/
+*.iws
+
+# Misc
+*.log
